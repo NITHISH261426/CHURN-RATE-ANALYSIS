@@ -66,3 +66,26 @@ My analysis revealed several critical insights that directly inform retention st
 To present findings in an accessible and interactive format, a dashboard was created using Microsoft Power BI. This dashboard allows stakeholders to dynamically filter the data and explore sales trends on their own.
 
 - <a href="https://github.com/NITHISH261426/CHURN-RATE-ANALYSIS/blob/main/CHURN%20ANALYSIS.pbix">PowerBIReport</a>
+
+### Key Features of the Dashboard:
+
+This project culminates in a comprehensive analysis that isolates the primary drivers of customer churn. The key findings are summarized below, reflecting the features of a potential interactive dashboard built from this analysis.
+#### 1. Executive KPI Scorecard
+An at-a-glance view of the most critical business metrics, designed for rapid health assessment.
+- **Overall Churn Rate**
+- **Total Customers**
+- **Monthly Recurring Revenue (MRR)**
+
+#### 2. The "Leaky Bucket" - Tenure & Revenue Analysis
+A central Line and Stacked Column chart visualizes the relationship between customer tenure, monthly revenue, and churn rate.
+> **Key Insight:** The business struggles with early-tenure churn. The highest churn rates occur within the first few months, especially among customers with high-value services like Fiber Optic internet.
+
+#### 3. Dynamic Root Cause Analysis
+Interactive slicers and comparative bar charts empower users to perform self-service analytics and isolate the factors with the highest impact on churn.
+> **Actionable Finding:** Payment method is a critical churn driver. Customers using **Mailed check** or **Electronic check** churn at over **3 times the rate** of customers on automatic payment plans. This points to a clear opportunity for intervention by promoting auto-pay.
+
+#### 4. Interactive Deep Dives
+Users can dynamically filter the entire analysis by:
+- **Internet Service:** Compare churn rates between DSL, Fiber Optic, and non-internet customers.
+- **Contract Type:** Instantly see the stabilizing effect of one- and two-year contracts.
+- **Payment Method:** Quantify the risk associated with different payment options.
