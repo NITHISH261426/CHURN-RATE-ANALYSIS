@@ -51,10 +51,6 @@ The dataset contains `7043` customer records and `23` features.
 
 
 
-
-
-
-
 ## Key Findings & Actionable Insights
 
 My analysis revealed several critical insights that directly inform retention strategy:
@@ -63,3 +59,8 @@ My analysis revealed several critical insights that directly inform retention st
 *   **Payment Friction is a Major Driver:** Customers using manual payment methods like **Electronic Check** churn at a rate of **45%**. In contrast, those on **Automatic Payments** have a much lower churn rate of just 15%.
 *   **The "Leaky Bucket" of New Customers:** The **Line & Stacked Column Chart** clearly shows that the highest churn rates occur within the first 12 months. This is especially risky as this new customer segment also contributes a significant portion of the total Monthly Recurring Revenue (MRR).
 *   **Support Tickets as a Leading Indicator:** A customer's likelihood to churn increases dramatically with the number of tech support tickets filed. Customers with 3 or more tickets have a churn rate exceeding **65%**, making support interaction a powerful predictive signal.
+
+
+## 📊 Power BI Dashboard
+
+To present findings in an accessible and interactive format, a dashboard was created using Microsoft Power BI. This dashboard allows stakeholders to dynamically filter the data and explore sales trends on their own.
