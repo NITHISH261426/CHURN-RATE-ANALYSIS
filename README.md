@@ -16,4 +16,4 @@ The final output is a dynamic and interactive Power BI dashboard that not only v
 ## 📂 Data Source
 
 The dataset used for this analysis is the "Customer Churn" dataset, widely available on platforms like Kaggle. It contains demographic, account, and service information for over 7,000 customers.
-- <a href="">Dataset</a>
+- <a href="https://github.com/NITHISH261426/CHURN-RATE-ANALYSIS/blob/main/02%20Customer%20Churn-Dataset.xlsx">Dataset</a>
