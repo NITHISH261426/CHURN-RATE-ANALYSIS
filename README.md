@@ -10,5 +10,9 @@ The final output is a dynamic and interactive Power BI dashboard that not only v
 ## 🛠️ Technical Stack
 
 *   **Power BI Desktop:** Used for data modeling, DAX calculations, and all visualizations.
-*   **DAX (Data Analysis Expressions):** Used to create complex measures for dynamic calculations (e.g., Churn Rate, MRR, customer counts).
+*   **DAX (Data Analysis Expressions):** Used to create complex measures for dynamic calculations (e.g., Churn Rate,  customer counts).
 *   **Power Query :** Used for data cleaning, transformation, and creating conditional columns (e.g., Tenure Groups).
+
+## 📂 Data Source
+
+The dataset used for this analysis is the "Customer Churn" dataset, widely available on platforms like Kaggle. It contains demographic, account, and service information for over 7,000 customers.
