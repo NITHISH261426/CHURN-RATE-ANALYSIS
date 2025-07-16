@@ -19,6 +19,34 @@ The dataset used for this analysis is the "Customer Churn" dataset, widely avail
 - <a href="https://github.com/NITHISH261426/CHURN-RATE-ANALYSIS/blob/main/02%20Customer%20Churn-Dataset.xlsx">Dataset</a>
 
 
+## Data Dictionary
+The dataset contains 7043 rows and 23 columns. Each row represents a unique customer.
+Column Name	Data Type	Description	Notes / Example Values
+customerID	object	A unique identifier for each customer.	e.g., 7590-VHVEG
+gender	object	The customer's gender.	Male, Female
+SeniorCitizen	int64	Indicates if the customer is a senior citizen (1) or not (0).	0, 1
+Partner	object	Indicates if the customer has a partner.	Yes, No
+Dependents	object	Indicates if the customer has dependents.	Yes, No
+tenure	int64	The total number of months the customer has been with the company.	1, 24, 72
+PhoneService	object	Indicates if the customer has a phone service.	Yes, No
+MultipleLines	object	Indicates if the customer has multiple phone lines.	Yes, No, No phone service
+InternetService	object	The type of internet service the customer has.	DSL, Fiber optic, No
+OnlineSecurity	object	Indicates if the customer has the online security service.	Yes, No, No internet service
+OnlineBackup	object	Indicates if the customer has the online backup service.	Yes, No, No internet service
+DeviceProtection	object	Indicates if the customer has the device protection service.	Yes, No, No internet service
+TechSupport	object	Indicates if the customer has the tech support service.	Yes, No, No internet service
+StreamingTV	object	Indicates if the customer has a TV streaming service.	Yes, No, No internet service
+StreamingMovies	object	Indicates if the customer has a movie streaming service.	Yes, No, No internet service
+Contract	object	The customer's contract term.	Month-to-month, One year, Two year
+PaperlessBilling	object	Indicates if the customer uses paperless billing.	Yes, No
+PaymentMethod	object	The customer's payment method.	Electronic check, Mailed check, etc.
+MonthlyCharges	float64	The amount charged to the customer monthly.	e.g., 29.85
+TotalCharges	object	The total amount charged to the customer over their tenure.	Note: This column requires conversion to a numeric type.
+numAdminTickets	int64	The number of administrative support tickets filed by the customer.	e.g., 0, 1, 5
+numTechTickets	int64	The number of technical support tickets filed by the customer.	e.g., 0, 2, 7
+Churn	object	(Target Variable) Indicates if the customer churned.	Yes, No
+
+
 
 
 
