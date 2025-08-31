@@ -71,7 +71,7 @@ To present findings in an accessible and interactive format, a dashboard was cre
 
 This project culminates in a comprehensive analysis that isolates the primary drivers of customer churn. The key findings are summarized below, reflecting the features of a potential interactive dashboard built from this analysis.
 #### 1. Executive KPI Scorecard
-An at-a-glance view of the most critical business metrics, designed for rapid health assessment.
+An at-a-glance view of the most critical business metrics,designed for rapid health assessment.
 - **Overall Churn Rate**
 - **Total Customers**
 - **Monthly Recurring Revenue (MRR)**
